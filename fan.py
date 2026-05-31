@@ -12,3 +12,5 @@ class Fan:
         self.__on = bool(on)
         #private float data field named radius that specifies the radius of the fan
         self.__radius = float(radius)
+        #private string data field named color that specifies the color of the fan
+        self.__color = str(color)
