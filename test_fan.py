@@ -32,3 +32,6 @@ def main():
     print("|  > Color  :", second_fan.get_color())
     print("|  > On     :", second_fan.get_on())
     print("+----------------------------------------+")
+#run
+if __name__ == "__main__":
+    main()
