@@ -15,7 +15,7 @@ class Fan:
         #private string data field named color that specifies the color of the fan
         self.__color = str(color)
 
-        #accessor(getter) method
+    #accessor(getter) method
     def get_speed(self):
         return self.__speed
 
@@ -27,5 +27,18 @@ class Fan:
 
     def get_color(self):
         return self.__color
+
+    #mutator(setter) method
+    def set_speed(self, speed):
+        self.__speed = speed
+
+    def set_on(self, on):
+        self.__on = bool(on)
+
+    def set_radius(self, radius):
+        self.__radius = float(radius)
+
+    def set_color(self, color):
+        self.__color = str(color)
 
 
