@@ -10,3 +10,5 @@ class Fan:
         self.__speed = int(speed)
         #private bool data field named on that specifies whether the fan is on
         self.__on = bool(on)
+        #private float data field named radius that specifies the radius of the fan
+        self.__radius = float(radius)
