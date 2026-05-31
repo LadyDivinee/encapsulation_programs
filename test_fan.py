@@ -8,3 +8,9 @@ def main():
     first_fan.set_radius(10)
     first_fan.set_color("yellow")
     first_fan.set_on(True)
+    # Assign medium speed, radius 5, color blue, and turn it off 
+    second_fan = Fan()
+    second_fan.set_speed(Fan.MEDIUM)
+    second_fan.set_radius(5)
+    second_fan.set_color("blue")
+    second_fan.set_on(False)
