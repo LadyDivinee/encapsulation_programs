@@ -6,5 +6,7 @@ class Fan:
     FAST = 3
 
     def __init__(self, speed=SLOW, on=False, radius=5, color="blue"):
-        # private int data field named speed that specifies the speed of the fan
+        #private int data field named speed that specifies the speed of the fan
         self.__speed = int(speed)
+        #private bool data field named on that specifies whether the fan is on
+        self.__on = bool(on)
