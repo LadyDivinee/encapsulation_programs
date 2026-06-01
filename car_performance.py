@@ -15,4 +15,9 @@ def main():
         bmw_car.accelerate()
         print(f"  > Step {i}: Current Speed is {bmw_car.get_speed()} km/h")
     print("")
+    #brake method five times and call to the brake method, get the current speed of the car and display it
+    print("[  BRAKING (5 TIMES)  ]")
+    for i in range(1, 6):
+        bmw_car.brake()
+        print(f"  > Step {i}: Current Speed is {bmw_car.get_speed()} km/h")
 
