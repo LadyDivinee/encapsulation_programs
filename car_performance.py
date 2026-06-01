@@ -20,4 +20,7 @@ def main():
     for i in range(1, 6):
         bmw_car.brake()
         print(f"  > Step {i}: Current Speed is {bmw_car.get_speed()} km/h")
+#run
+if __name__ == "__main__":
+    main()
 
