@@ -8,4 +8,11 @@ def main():
     print("|           BMW 2026 SIMULATOR           |")
     print("+----------------------------------------+")
     print("  Initial Speed:", bmw_car.get_speed(), "km/h")
+    print("")
+    #accelerate method five times and get the current speed of the car and display it
+    print("[  ACCELERATION  (5 TIMES)   ]")
+    for i in range(1, 6):
+        bmw_car.accelerate()
+        print(f"  > Step {i}: Current Speed is {bmw_car.get_speed()} km/h")
+    print("")
 
