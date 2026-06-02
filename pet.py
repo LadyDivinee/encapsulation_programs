@@ -6,3 +6,5 @@ class Pet:
         self.__name = ""
         # for the type of animal that a pet is
         self.__animal_type = ""
+        # for the pet’s age
+        self.__age = 0
