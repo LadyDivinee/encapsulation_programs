@@ -4,3 +4,5 @@ class Pet:
     def __init__(self):
         # for the name of a pet
         self.__name = ""
+        # for the type of animal that a pet is
+        self.__animal_type = ""
