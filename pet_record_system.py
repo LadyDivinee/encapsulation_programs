@@ -16,3 +16,8 @@ def main():
     cute_pet.set_animal_type(pet_type)
     cute_pet.set_age(pet_age)
     print("")
+    # retrieve the pet’s name, type, and age and display this data on the screen using accessor
+    print("[ RECORDED PET INFORMATION ]")
+    print("  > Pet Name    :", cute_pet.get_name())
+    print("  > Type of Pet :", cute_pet.get_animal_type())
+    print("  > Pet Age     :", cute_pet.get_age(), "years old")
