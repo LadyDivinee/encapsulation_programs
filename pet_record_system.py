@@ -21,3 +21,6 @@ def main():
     print("  > Pet Name    :", cute_pet.get_name())
     print("  > Type of Pet :", cute_pet.get_animal_type())
     print("  > Pet Age     :", cute_pet.get_age(), "years old")
+#run
+if __name__ == "__main__":
+    main()
